@@ -44,10 +44,9 @@ Be careful about paths - most of them are hardcoded and will require fixing
           1. center of mass of RBD heavy atoms interacting with Ab
           2. center of mass of Ab heavy atoms interacting with RBD
           3. center of CA atoms of Av variable domain
-  7) Save unfiltered database of Abs
-  8) Drop Abs not interacting with RBD (residue 319-541) and write next database version
-  9) Calculate Seqvec embedded vectors for CDRs and plot distance between embedded vectors
-     vs distance between epitopes map. Delete outliers based on plotted map and save next version of database
-  10) Drop ECM structures which sugnificantly differ from X-Ray
-  11) Drop duplicates based on sequence of 6 CDRs and keep the last entries. Save database of Abs with unique CDRs
+   7) Save unfiltered database of Abs
+   8) Drop Abs not interacting with RBD (residue 319-541) and write next database version
+   9) Calculate Seqvec embedded vectors for CDRs and plot distance between embedded vectors vs distance between epitopes map. Delete outliers based on plotted map and save next version of database
+   10) Drop ECM structures which sugnificantly differ from X-Ray
+   11) Drop duplicates based on sequence of 6 CDRs and keep the last entries. Save database of Abs with unique CDRs
 
