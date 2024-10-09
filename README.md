@@ -65,4 +65,5 @@ Be careful about paths - most of them are hardcoded and will require fixing
    12) Calculate centers (3 points for each epitope class) for epitope class and save to npy file
    13) Assign class to Ab from covadab database
    14) output database ready to RBD-AIM software
+   15) Create pse file of visalization Abs with pdb structure
 
