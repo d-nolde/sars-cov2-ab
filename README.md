@@ -27,6 +27,7 @@ Be careful about paths - most of them are hardcoded and will require fixing
     Scientific Name of the Source Organism is Severe acute respiratory syndrome coronavirus 2 AND
     Scientific Name of the Source Organism is Homo Sapiens AND
     Title has any of words (antibody, antibodies, Fab, Fabs)
+3) Excel file of Abs with epitope class from supplement of https://doi.org/10.1038/s41586-022-04980-y
 
 ## Scripts
 1. proc_covadab_pdb_p1.ipynb
