@@ -49,4 +49,19 @@ Be careful about paths - most of them are hardcoded and will require fixing
    9) Calculate Seqvec embedded vectors for CDRs and plot distance between embedded vectors vs distance between epitopes map. Delete outliers based on plotted map and save next version of database
    10) Drop ECM structures which sugnificantly differ from X-Ray
    11) Drop duplicates based on sequence of 6 CDRs and keep the last entries. Save database of Abs with unique CDRs
+3. proc_covadab_pdb_p1.ipynb
+   1) Read database from part2
+   2) Read excel file with Abs epitope
+   3) Calculate CDRs of Abs from excel file
+   4) Filter excel file by unique CDRs
+   5) Remove entries with _omi suffix in epitope
+   6) Find intersection of pdb database and filtered excel file
+   7) Compare list of residues contacted with RBD and contacts specific for epitope
+   8) Excluding Abs with <2 epitope-specific contacts
+   9) Create pymol file for Abs epitope visualization
+   10) Manually reassign Abs epitope class based on pymol visualization
+   11) Create pymol file for Abs epitope visualization (modified)
+   12) Calculate centers (3 points for each epitope class) for epitope class and save to npy file
+   13) Assign class to Ab from covadab database
+   14) output database ready to RBD-AIM software
 
