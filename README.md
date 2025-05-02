@@ -2,8 +2,8 @@
 Scripts to prepare database of SARS-Cov2 antibodies.
 This repos contains software to prepare antibody database.
 The database was used in development of RBD-AIM software described in
-Terekhov et al 2024. Mining antibody functionality via AI-guided structural landscape profiling
-(to be published)
+Terekhov et al. Mining antibody functionality via AI-guided structural landscape profiling
+(Nature Comm. 2025, submittted for publication)
 
 ## Requirements 
 Conda environment file (environment.yaml or environment.txt) included in the repo.
