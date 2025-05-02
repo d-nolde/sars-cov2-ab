@@ -31,7 +31,7 @@ Be careful about paths - most of them are hardcoded and will require fixing
 
 ## Scripts
 1. proc_covadab_pdb_p1.ipynb
-   Load and check CoV-AbDab database, calculates sequqences of CDR1-3 of both chains.
+   Load and check CoV-AbDab database, calculates sequqences of CDRs 1-3 of both chains.
 2. proc_covadab_pdb_p2.ipynb
    1) Read covadab with CDRs and select only human Abs
    2) Read list with additional pdbids
