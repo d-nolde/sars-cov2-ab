@@ -50,7 +50,7 @@ Be careful about paths - most of them are hardcoded and will require fixing
    9) Calculate Seqvec embedded vectors for CDRs and plot distance between embedded vectors vs distance between epitopes map. Delete outliers based on plotted map and save next version of database
    10) Drop ECM structures which sugnificantly differ from X-Ray
    11) Drop duplicates based on sequence of 6 CDRs and keep the last entries. Save database of Abs with unique CDRs
-3. proc_covadab_pdb_p1.ipynb
+3. proc_covadab_pdb_p3.ipynb
    1) Read database from part2
    2) Read excel file with Abs epitope
    3) Calculate CDRs of Abs from excel file
